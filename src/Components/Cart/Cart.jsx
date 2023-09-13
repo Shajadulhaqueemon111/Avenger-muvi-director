@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-const Cart = ({selectActor, remaining,totalCost}) => {
+const Cart = ({selectActor, remaining, totalCost}) => {
     // const {name}=selectAcctor
     console.log(selectActor)
    
@@ -19,7 +19,7 @@ const Cart = ({selectActor, remaining,totalCost}) => {
     );
 };
 Cart.propTypes = {
-    selectActor: PropTypes.arrayOf
+    selectActor: PropTypes.arrayOf,
     remaining: PropTypes.number.isRequired,
     totalCost: PropTypes.number.isRequired,
 }
